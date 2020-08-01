@@ -1,0 +1,28 @@
+This uses an H-bridge circuit. 
+It contains a reversible motor, with its 2 leads represented by M-1 and M-2. 
+The motor reverses the current and turns it positive or negative. 
+When there’s a forward bias, the transistor will turn on. The current alternately flows from Q3 to Q4, and from Q1 to Q2.
+
+When one set has a negative current flowing through it, the other set has a positive current, and vice versa. 
+The positive current will first flow from Q3 to M-2, then become negative when it flows from M-1 to Q4 - after the current is reversed through the motor. 
+This condition is achieved when D1 is powered, turning on transistors 3 and 4. 
+In this case, M-2 will be positive and M-1 will be negative. 
+The following will describe the process. 
+When D1 (base of transistor) is high (5V), then the collector and emitter of the transistor is turned on. 
+This activates Q4 (transistor 4). So, the collector of Q4 becomes grounded, causing M-1 to become grounded. 
+Then, the Q3 base, in turn, also becomes grounded and Q3 becomes conductive. 
+Collector and emitter take the same path for the Q3 transistor, causing M-2 to be positive (5V).
+
+In another situation, a negative current will flow from Q1 to M-1, then become positive when it flows from M-2 to Q2. 
+This condition is achieved when D0 is powered, turning on transistors transistors 1 and 2. 
+In this case, M-2 will be negative and M-1 will be positive. 
+The following will describe the process. 
+When D1 becomes zero, then D0 gets a +5V charge. Q2 becomes energized/conductive. 
+The collector of Q2 becomes grounded, causing M-2 to become grounded (negatively charged). 
+Then the Q1 base, in turn, becomes grounded as well and Q1 becomes conductive because the collector and emitter take the same path, causing M-1 to be 5V (positively charged).
+
+This continuous pattern allows the motor to reverse and allows a constant flow of current. 
+Alternately, the circuit will go from step 1 to step 2, depending on the D0 and D1 bias voltage. 
+In this process, the resistors and diodes play a role as well. The diode prevents a reverse flow of the current. 
+The resistors limit the amount of current flowing through the circuit to the base of the transistor.
+
