@@ -1,0 +1,11 @@
+Process outlined below:
+1. Design the elevator - This was a two day process that involved choosing a theme and designing the overall look for the elevator.
+2. Write the code
+3. Test the code with the motor: 
+    At first the motor was not correctly following the requests. The motor was turning counter clockwise instead of clockwise, so that needed to be fixed. 
+    With a few changes in the code such as, the “if” or “else if” statements, I got the motor to work.
+4. Paint and assemble 
+5. Add the motor to the elevator: 
+    I tied string to the elevator holder which will be going to each floor, as well as adding two holes in the roof to have a wooden dowel slide through. 
+    The remaining string was rolled around onto the middle part of the dowel and a motor to move the dowel was placed at the end.
+6. Adjust the times to correspond to the elevator
