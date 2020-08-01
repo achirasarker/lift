@@ -1,2 +1,2 @@
-# moving-elevator-
-Mechanically connected to a pulley that moves the elevator up to a floor requested by the user.
+# moving-elevator
+A mechanical elevator that is connected to an H-Bridge Motor, and programmed to change floor based on a user input value.
