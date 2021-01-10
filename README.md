@@ -1,2 +1,4 @@
 # moving-elevator
-A mechanical elevator that is connected to an H-Bridge Motor, and programmed to change floor based on a user input value. An image of this project can be found on my <a href="https://achirasarker.me/">Personal Website</a> under the Projects Section. 
+A mechanical elevator that is connected to an H-Bridge Motor, and programmed to change floor based on a user input value. The physical portion is hand-made, built using cardboard, a dowel and string. It uses a pulley system mechanism to generate movement of the box from the input that the user types on the computer.
+
+<img src="images/lift.jpeg">
